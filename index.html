@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style> 
+    *{
+        box-sizing: border-box;
+        font-family: 'Abril Fatface', cursive;
+    }
+    p{
+        color: blue;
+        background-color: blanchedalmond;
+        text-align: center;
+        text-decoration: dotted underline;
+        text-transform: uppercase;
+        word-spacing: 10px;
+
+        
+    }
+    h1{
+        color: blue;
+        letter-spacing: 10px;
+        text-align: center;
+        text-shadow: 10px 7px 10px black;
+        
+    }
+    .prara{
+        white-space: normal;
+        background-color: cadetblue;
+        color: whitesmoke;
+    }
+    .continer{
+        width: 800px;
+        height: 500px;
+        /* border: 2px solid #4b04f1; */
+        padding: 10px;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 10px;
+        /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    a{
+        text-decoration: none;
+        display: inline-block;
+        width: 90px;
+        height: 40px;
+        border: 3px solid blue;
+        padding: 6px;
+        margin-left: 376px;
+        border-radius: 5px;
+    }
+    a:hover{
+        background-color: blue;
+        color: white;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .cit{
+        margin: auto;
+    }
+    @media screen and (max-width:720px){
+        .continer{
+            background-color: rgb(32, 236, 83);
+            
+        }
+    }
+    @media screen and (max-width:480px){
+        .continer{
+            background-color: blue;
+        }
+    }
+    div img{
+        /* border: 5px solid blue; */
+    }
+    div > p{
+        background-color: rgb(35, 14, 230);
+        color: white;
+    }
+    div + p{
+        background-color:yellow;
+    }
+    div ~ p {
+        background-color: aquamarine;
+    }
+    img [src]{
+        border: 10px dotted blue;!important
+    }
+    </style>
+</head>
+<body>
+    <div class="continer">
+      
+            <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="" style="margin-left: 20px;">
+            <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="" style="margin:0px 200px;">
+            <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="">
+      
+
+        <h1>
+            CSS Text, Font properties.
+        </h1>
+             <p>
+                 <label for="soundFile">What does your voice sound like?:</label>
+                 <input type="file" id="soundFile" capture="user" accept="audio/*">
+              </p>
+              <p>
+                 <label for="videoFile">Upload a video:</label>
+                 <input type="file" id="videoFile" capture="environment" accept="video/*">
+             </p>
+              <p>
+                 <label for="imageFile">Upload a photo of yourself:</label>
+                 <input type="file" id="imageFile" capture="user" accept="image/*">
+             </p>
+                     <p class="prara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptas sit esse, cupiditate labore ratione officiis sunt fugiat nostrum voluptatibus sint quo laboriosam aut assumenda nobis, doloribus vero sapiente corrupti.</p>
+                     <a href="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" download="ginne.jpg">download</a>
+
+    </div>
+    <div class="continer">
+      
+        <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="" style="margin-left: 20px;">
+        <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="" style="margin:0px 200px;">
+        <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="">
+  
+
+    <h1>
+        CSS Text, Font properties.
+    </h1>
+         <p>
+             <label for="soundFile">What does your voice sound like?:</label>
+             <input type="file" id="soundFile" capture="user" accept="audio/*">
+          </p>
+          <p>
+             <label for="videoFile">Upload a video:</label>
+             <input type="file" id="videoFile" capture="environment" accept="video/*">
+         </p>
+          <p>
+             <label for="imageFile">Upload a photo of yourself:</label>
+             <input type="file" id="imageFile" capture="user" accept="image/*">
+         </p>
+                 <p class="prara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptas sit esse, cupiditate labore ratione officiis sunt fugiat nostrum voluptatibus sint quo laboriosam aut assumenda nobis, doloribus vero sapiente corrupti.</p>
+                 <a href="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" download="ginne.jpg">download</a>
+
+</div><div class="continer">
+      
+    <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="" style="margin-left: 20px;">
+    <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="" style="margin:0px 200px;">
+    <img src="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" alt="">
+
+
+<h1>
+    CSS Text, Font properties.
+</h1>
+     <p>
+         <label for="soundFile">What does your voice sound like?:</label>
+         <input type="file" id="soundFile" capture="user" accept="audio/*">
+      </p>
+      <p>
+         <label for="videoFile">Upload a video:</label>
+         <input type="file" id="videoFile" capture="environment" accept="video/*">
+     </p>
+      <p>
+         <label for="imageFile">Upload a photo of yourself:</label>
+         <input type="file" id="imageFile" capture="user" accept="image/*">
+     </p>
+             <p class="prara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero voluptas sit esse, cupiditate labore ratione officiis sunt fugiat nostrum voluptatibus sint quo laboriosam aut assumenda nobis, doloribus vero sapiente corrupti.</p>
+             <a href="./image/deugo8q-51767b23-8f3d-4a49-8ae6-2f4e68617b1f.png" download="ginne.jpg">download</a>
+
+</div>
+<div>
+    
+</div>
+</body>
+</html>
